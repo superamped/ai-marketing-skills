@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "keywords-everywhere": {
+      "type": "http",
+      "url": "https://mcp.keywordseverywhere.com/mcp",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["@playwright/mcp@latest", "--allow-unrestricted-file-access", "--browser", "chromium"]
+    }
+  }
+}
