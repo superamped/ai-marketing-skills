@@ -1,17 +1,40 @@
 {
-  "name": "superamped/ai-marketing-skills",
+  "name": "ai-marketing-skills",
   "owner": {
-    "name": "Superamped"
+    "name": "SuperAmped",
+    "url": "https://superamped.com"
+  },
+  "metadata": {
+    "description": "18 AI marketing skills — research competitors, audit SEO, write ads, plan content, and more.",
+    "version": "1.0.0",
+    "repository": "https://github.com/superamped/ai-marketing-skills"
   },
   "plugins": [
     {
-      "name": "superamped",
-      "description": "18 AI marketing skills — research competitors, audit SEO, write ads, plan content, and more.",
-      "version": "1.0.0",
-      "source": {
-        "source": "github",
-        "repo": "superamped/ai-marketing-skills"
-      }
+      "name": "ai-marketing-skills",
+      "description": "18 AI marketing skills for technical marketers and founders: competitor research, keyword analysis, SEO audits, ad creative, content strategy, conversion optimization, community discovery, influencer discovery, and more",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/ads/ad-angles",
+        "./skills/ads/ad-campaign-analyzer",
+        "./skills/ads/ad-creative",
+        "./skills/content/content-repurposer",
+        "./skills/content/content-strategy",
+        "./skills/content/social-post-writer",
+        "./skills/conversion/conversion-audit",
+        "./skills/reddit/reply-writer",
+        "./skills/research/channel-discovery",
+        "./skills/research/community-discovery",
+        "./skills/research/competitor-content-analysis",
+        "./skills/research/competitor-discovery",
+        "./skills/research/competitor-keyword-analysis",
+        "./skills/research/competitor-landscape",
+        "./skills/research/competitor-site-analysis",
+        "./skills/research/influencer-discovery",
+        "./skills/research/keyword-research",
+        "./skills/search/search-page-audit"
+      ]
     }
   ]
 }
