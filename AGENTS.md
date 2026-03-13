@@ -36,7 +36,9 @@ This repo contains standalone marketing skills in the `skills/` directory. Each 
 
 ## How to Use
 
-When a user asks to run an audit (or any skill), read the corresponding `SKILL.md` file and follow its instructions exactly. Pass the user's input (e.g. a URL) as the argument.
+**Claude Code plugin users:** Skills are auto-discovered — just ask Claude to run any skill by name.
+
+**Other tools:** When a user asks to run an audit (or any skill), read the corresponding `SKILL.md` file and follow its instructions exactly. Pass the user's input (e.g. a URL) as the argument.
 
 ## Conventions
 

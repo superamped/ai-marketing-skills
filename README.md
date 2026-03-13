@@ -67,15 +67,31 @@ Some skills use MCP (Model Context Protocol) servers for live data. These are op
 | [Keywords Everywhere](integrations/keywords-everywhere.md) | Keyword volumes, traffic metrics, backlink data | Keyword Research, Competitor Keyword Analysis | Competitor Content Analysis |
 | [Playwright](integrations/playwright.md) | Browser automation for screenshots and JS-rendered pages | — | Ad Creative, Competitor Content Analysis, Competitor Site Analysis |
 
-A template [`.mcp.json`](.mcp.json) is included — replace `YOUR_API_KEY` with your Keywords Everywhere API key.
+A template [`.mcp.json`](.mcp.json) is included. Set the `KEYWORDS_EVERYWHERE_API_KEY` environment variable with your Keywords Everywhere API key. Claude Code plugin users get this automatically.
 
 ## Getting Started
+
+### Claude Code (recommended)
+
+Install as a plugin — all 18 skills are auto-discovered:
+
+```bash
+claude plugin install superamped/ai-marketing-skills
+```
+
+If you use skills that need Keywords Everywhere data, set your API key:
+
+```bash
+export KEYWORDS_EVERYWHERE_API_KEY=your_key_here
+```
+
+Then ask Claude to run any skill (e.g. "run a competitor discovery for Acme Corp").
+
+### Other Tools
 
 1. Clone this repo
 2. Copy the `skills/` folder into your project
 3. Run the skill using your AI coding tool
-
-**Claude Code** — Copy `skills/` to `.claude/skills/` in your project, then ask Claude to run a skill
 
 **Codex** — Copy `skills/` to `.agents/skills/` in your project, then ask Codex to run a skill
 
