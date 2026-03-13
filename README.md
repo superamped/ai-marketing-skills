@@ -73,10 +73,11 @@ A template [`.mcp.json`](.mcp.json) is included. Set the `KEYWORDS_EVERYWHERE_AP
 
 ### Claude Code (recommended)
 
-Install as a plugin — all 18 skills are auto-discovered:
+Add the marketplace and install — all 18 skills are auto-discovered:
 
 ```bash
-claude plugin install superamped/ai-marketing-skills
+/plugin marketplace add superamped/ai-marketing-skills
+claude plugin install superamped@ai-marketing-skills
 ```
 
 If you use skills that need Keywords Everywhere data, set your API key:

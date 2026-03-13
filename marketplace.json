@@ -1,0 +1,16 @@
+{
+  "owner": {
+    "name": "Superamped"
+  },
+  "plugins": [
+    {
+      "name": "superamped",
+      "description": "18 AI marketing skills — research competitors, audit SEO, write ads, plan content, and more.",
+      "version": "1.0.0",
+      "source": {
+        "source": "github",
+        "repo": "superamped/ai-marketing-skills"
+      }
+    }
+  ]
+}
