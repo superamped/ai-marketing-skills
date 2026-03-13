@@ -77,7 +77,7 @@ Add the marketplace and install — all 18 skills are auto-discovered:
 
 ```bash
 /plugin marketplace add superamped/ai-marketing-skills
-/plugin install superamped@ai-marketing-skills
+/plugin install ai-marketing-skills
 ```
 
 If you use skills that need Keywords Everywhere data, set your API key:
