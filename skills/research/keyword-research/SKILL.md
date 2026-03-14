@@ -10,8 +10,6 @@ metadata:
 
 # Keyword Research
 
-Pull the full keyword universe for a topic using the Keywords Everywhere MCP integration. Expands a seed topic into a clustered, prioritized keyword report with volumes — ready to feed into content planning or editorial calendars.
-
 ## Usage
 
 Use when planning content around a topic before writing, building a keyword map for a new content area, finding question-based keywords for GEO optimization, or identifying gaps where competitors rank and you don't.

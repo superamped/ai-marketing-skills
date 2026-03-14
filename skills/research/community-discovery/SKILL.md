@@ -10,8 +10,6 @@ metadata:
 
 # Community Discovery
 
-Given a target audience description, systematically discover online communities where they congregate across 5 platform categories, then score and rank by Signal-to-Noise ratio. Outputs a prioritized list of communities worth engaging in or advertising to.
-
 ## Usage
 
 Use when finding communities to engage with organically, identifying where a target market spends time online, or planning community-led GTM strategy.

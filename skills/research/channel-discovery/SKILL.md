@@ -10,10 +10,6 @@ metadata:
 
 # Channel Discovery
 
-Given a target market, research where that audience actually spends time, what channels can reach them, and which to prioritize first. Produces a ranked channel recommendation with reasoning, estimated effort, and cost signals.
-
-**Key distinction:** A **channel** is the WHERE — any place you can reliably get eyeballs or ears on something (search engines, social media, online forums, podcasts, trade shows). A **tactic** is the HOW — the method used to leverage that channel (paid ads, SEO, DMs, posting content, cold outreach). Don't conflate them. LinkedIn is a channel. Running paid ads on LinkedIn is a tactic. DMing people on LinkedIn is a different tactic on the same channel. Get the WHERE right before spending time on the HOW.
-
 ## Usage
 
 Use when deciding where to spend marketing dollars and time. Ideal after defining your target market but before committing to specific tactics. Also useful when a current channel is underperforming and you need alternatives.
@@ -134,7 +130,7 @@ Beyond the paid/organic/outbound categories, consider these additional traction 
 | 18 | Speaking engagements | Conference talks, podcasts, webinars |
 | 19 | Community building | Already covered above |
 
-**Peter Thiel's rule:** "If you can get just one distribution channel to work, you have a great business." Don't try all 19 — find the 1-2 that work and nail them first.
+Don't try all 19 — find the 1-2 that work and nail them first.
 
 ### Step 4: Research Channel Viability
 

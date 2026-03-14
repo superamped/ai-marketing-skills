@@ -10,8 +10,6 @@ metadata:
 
 # Content Strategy
 
-Plan content that drives traffic, builds authority, and generates leads by being either searchable, shareable, or both.
-
 ## Usage
 
 Use when building or refreshing a content strategy from scratch, planning content pillars and topic clusters, creating an editorial calendar, or identifying high-priority content opportunities by buyer stage.

@@ -10,10 +10,6 @@ metadata:
 
 # Competitor Site Analysis
 
-Visit a competitor's website and extract structured data across 5 dimensions: company overview, product & positioning, pricing & feature monetization, social proof & trust, and hiring signals. Pure website extraction — no synthesis, no strategic assessment.
-
-This skill focuses on business data. Content strategy (blog, social, email, gated content) is handled by competitor-content-analysis.
-
 ## Usage
 
 Use for a quick website data pull on a competitor, or as a first step before deeper analysis. Produces a structured 5-section profile from publicly available website information.

@@ -10,10 +10,6 @@ metadata:
 
 # Competitor Discovery
 
-Find out who you're competing against. Searches the web using your product category, audience, and features to build a ranked list of competitors with URLs, descriptions, and overlap classification.
-
-This is the lightweight discovery step — who exists. For deep analysis of any individual competitor, follow up with competitor-site-analysis or competitor-content-analysis.
-
 ## Usage
 
 Use when you don't know who your competitors are, when entering a new market, or when refreshing the competitor list after a pivot or market shift.

@@ -10,8 +10,6 @@ metadata:
 
 # Influencer Discovery
 
-Given an industry/niche and target audience, systematically discover influencers across 4 platform categories plus cross-platform discovery angles (conference speakers, podcast guests, newsletter curators), then score and rank by Audience Overlap. Outputs a prioritized list of influencers worth partnering with, sponsoring, or learning from.
-
 ## Usage
 
 Use when finding influencers to partner with for sponsorships, affiliate deals, or co-marketing. Also useful for identifying thought leaders your target audience already follows, building a media list for outreach or PR, or understanding who shapes opinion in your niche before creating content.

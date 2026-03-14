@@ -10,10 +10,6 @@ metadata:
 
 # Competitor Keyword Analysis
 
-Map a competitor's organic search presence: what keywords they rank for, how much traffic they earn, and what content themes dominate their SEO footprint. Uses Keywords Everywhere MCP for all data.
-
-This skill maps a COMPETITOR's existing rankings (`get_domain_keywords`, `get_domain_traffic_metrics`). It is distinct from keyword-research, which expands YOUR seed keywords.
-
 ## Usage
 
 Use for a quick SEO snapshot of a competitor's organic presence, or as input to competitor-content-analysis for deeper content strategy mapping.

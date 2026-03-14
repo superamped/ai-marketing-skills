@@ -1,6 +1,6 @@
 ---
 name: ad-angles
-description: "Brainstorm ad concepts by combining messaging angles (Problem, Solution, Comparison, Proof, Curiosity), formats, and visual styles using Schwartz's awareness framework."
+description: "Brainstorm ad concepts by combining messaging angles (Problem, Solution, Comparison, Proof, Curiosity), formats, and visual styles using a market awareness framework."
 compatibility: "No special requirements."
 metadata:
   author: superamped
@@ -9,8 +9,6 @@ metadata:
 ---
 
 # Ad Angle Brainstorm
-
-Generate a batch of concrete ad concepts by systematically combining messaging angles, ad formats, and visual styles. Produces headline variations and creative briefs ready for production.
 
 ## Usage
 
@@ -33,7 +31,7 @@ If the user has multiple products, ask which product this campaign is for. Don't
 
 ### Step 1b: Diagnose Market Awareness & Sophistication
 
-Before generating angles, diagnose where the target market sits on Schwartz's two axes. This determines which angle types will work and which will fail.
+Before generating angles, diagnose where the target market sits on two axes. This determines which angle types will work and which will fail.
 
 **Market Awareness (5 stages):**
 

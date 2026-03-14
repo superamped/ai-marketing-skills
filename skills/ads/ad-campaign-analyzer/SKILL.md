@@ -10,10 +10,6 @@ metadata:
 
 # Ad Campaign Analyzer
 
-Analyze running ad campaigns by grading every ad or ad set as Red (stop), Yellow (leave alone), or Green (scale). Flags creative fatigue, checks profitability against AOV, and gives concrete next steps with specific budget numbers.
-
-Built from the Red-Yellow-Green method in Low Ticket Profits.
-
 ## Usage
 
 Use when reviewing a running campaign to decide what to kill, keep, or scale. Works for daily 15-minute ad reviews, weekly creative refresh planning, and monthly performance trend reviews.

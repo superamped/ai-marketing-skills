@@ -10,10 +10,6 @@ metadata:
 
 # Content Repurposer
 
-Take one piece of long-form content (newsletter, blog post, podcast transcript, YouTube script) and systematically produce a week's worth of short-form social posts plus promotional CTAs. Uses the Hub & Spoke method from Justin Welsh's Content Operating System.
-
-The core idea: create once, distribute many. One hub piece becomes 5-7 spokes plus 2 CTAs. Every spoke uses a different template so your feed has variety, not repetition.
-
 ## Usage
 
 Use when you've just published a newsletter or blog post and need social content to promote and extend it, repurposing a podcast episode or YouTube video transcript, or getting a full week of social posts from one piece of long-form content.
@@ -309,4 +305,4 @@ Flag if the batch is unbalanced. A good week has at least 2 different triggers r
 - Contrarian takes only work if the original content actually has a contrarian angle. Don't manufacture one.
 - CTA posts work best when they give a taste of value before asking for the click.
 - If the hub is thin on material (under 500 words or only 1-2 takeaways), generate 3 spokes instead of 5 and flag that the hub could be expanded.
-- Templates from Justin Welsh's Content Operating System.
+

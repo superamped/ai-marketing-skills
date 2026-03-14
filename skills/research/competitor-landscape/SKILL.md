@@ -10,8 +10,6 @@ metadata:
 
 # Competitor Landscape
 
-Take data from multiple competitor analyses and produce a cross-competitor comparative analysis: feature matrix, pricing comparison, positioning map, aggregate SWOT, and strategic recommendations. This is the "zoom out" view that individual analyses can't provide.
-
 ## Usage
 
 Use after analyzing 2+ competitors — you have individual profiles and need the comparative view. Also useful for preparing a board deck, investor update, or strategy doc that needs a market landscape section.

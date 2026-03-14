@@ -10,8 +10,6 @@ metadata:
 
 # Competitor Content Analysis
 
-Map a competitor's content strategy from the outside: what they publish, what formats, what's earning traffic, what SEO plays they're running, what comparison pages they own, how they use gated content, and where they're active on social. Produces a content intelligence brief with specific actionable gaps and content ideas.
-
 ## Usage
 
 Use before building or refreshing your content strategy — map the competitive content landscape first. Also useful for identifying content gaps and opportunities vs. a specific competitor, or understanding what's earning a competitor organic traffic and why.

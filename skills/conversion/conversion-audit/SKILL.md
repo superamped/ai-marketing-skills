@@ -1,6 +1,6 @@
 ---
 name: conversion-audit
-description: "53-point conversion audit covering customer focus, narrative arc (Pain-Dream-Fix), copy quality, design, CTAs, and proof. Scored report with prioritized fixes."
+description: "53-point conversion audit covering customer focus, narrative arc, copy quality, design, CTAs, and proof. Scored report with prioritized fixes."
 compatibility: "Requires internet access to fetch URLs."
 metadata:
   author: superamped
@@ -10,19 +10,15 @@ metadata:
 
 # Conversion Audit
 
-Audit a landing page across six dimensions grounded in the Pain-Dream-Fix framework: customer focus, narrative arc, copy quality, design & readability, CTA mechanics, and proof & objections. Produces a scored report with prioritized fixes to improve conversion rate.
-
-The search-page-audit asks "will it rank?" — this skill asks "will it sell?"
-
 ## Usage
 
 Use when auditing a landing page, sales page, or product page before launch, diagnosing why a page gets traffic but doesn't convert, reviewing ad landing pages before spending on paid media, or checking a page against direct response best practices.
 
 ## Framework Reference
 
-This audit synthesises two complementary direct-response frameworks:
+This audit synthesises two complementary direct-response principles:
 
-**Pain-Dream-Fix (Amy Hoy)** — The narrative arc. A landing page that sells follows a story, not a feature list.
+**Narrative arc (pain → dream → fix)** — A landing page that sells follows a story, not a feature list.
 
 ```
 Pain → Sandwich → Dream → Sandwich → Fix → Sandwich → CTA (wrapped in dream)
@@ -30,14 +26,14 @@ Pain → Sandwich → Dream → Sandwich → Fix → Sandwich → CTA (wrapped i
 
 Each section transitions via "sandwiches" — brief passages that bounce between hope and reality to create tension. The page stars the **customer**, not the product.
 
-**Clarity-Desire-Credibility-Action (Eddie Shleyner / VeryGoodCopy)** — The conversion mechanics. Every landing page must achieve clarity (hero divider), intensify desire (fascinations / value teasing), earn credibility (confidence signals + testimonial walls), and compel immediate action (urgency + friction removal).
+**Conversion mechanics (clarity → desire → credibility → action)** — Every landing page must achieve clarity (hero divider), intensify desire (fascinations / value teasing), earn credibility (confidence signals + testimonial walls), and compel immediate action (urgency + friction removal).
 
 Key vocabulary:
 - **Crispy** = specific, concrete, vivid copy drawn from customer research (vs. "soggy" vague platitudes)
 - **Obliteration** = each dream word directly cancels a specific pain word (fear → confidence, streaky → flawless)
 - **Sandwich** = a transition between sections that steps forward and back to create drama
 - **Active frame** = copy shifts from passive/fearful to active/imperative as it moves toward the CTA
-- **Slippery slide** (Sugarman) = every element's job is to compel reading the next element
+- **Slippery slide** = every element's job is to compel reading the next element
 - **50ms trust** = visitors decide in 50 milliseconds whether they trust a page — before reading a word
 - **LISH** = Length Implies Strength Heuristic — a wall of proof signals substance
 
@@ -67,7 +63,7 @@ The #1 failing of pages that don't convert.
 7. **Emotional core identified** — Page addresses emotional pain, not just functional problems
 8. **Frame is set and maintained** — Headline sets a specific frame and the rest stays within it
 
-### Step 3: Narrative Arc — Pain-Dream-Fix (10 checks)
+### Step 3: Narrative Arc — Pain → Dream → Fix (10 checks)
 
 1. **Pain section exists** — Distinct section naming specific pain points with crispy details
 2. **Dream section exists** — Vivid picture of life with the pain obliterated
@@ -170,7 +166,7 @@ Skip this check entirely for non-SaaS pages.
 ✓/✗ Emotional core identified — [note]
 ✓/✗ Frame is set and maintained — [note]
 
-## 2. Narrative Arc — Pain-Dream-Fix (X/10)
+## 2. Narrative Arc — Pain → Dream → Fix (X/10)
 
 ✓/✗ Pain section exists — [note]
 ✓/✗ Dream section exists — [note]
@@ -240,7 +236,7 @@ Skip this check entirely for non-SaaS pages.
 | Category | Score | Rating |
 |----------|-------|--------|
 | Customer Focus & Framing | X/8 | |
-| Narrative Arc (Pain-Dream-Fix) | X/10 | |
+| Narrative Arc (Pain → Dream → Fix) | X/10 | |
 | Crispy Copy | X/8 | |
 | Emotional Resonance | X/3 | |
 | Design & Readability | X/8 | |
@@ -271,4 +267,4 @@ Skip this check entirely for non-SaaS pages.
 - Never score based on aesthetic preference — focus on conversion principles.
 - Never assume the target audience — if unclear, note it as a gap.
 - Flag if the page has no clear single CTA, talks entirely about the product and never the customer, or appears to receive paid traffic with no tracking pixels.
-- Framework attributions: Pain-Dream-Fix from Amy Hoy; Clarity-Desire-Credibility-Action from Eddie Shleyner / VeryGoodCopy.
+

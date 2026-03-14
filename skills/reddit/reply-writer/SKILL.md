@@ -10,8 +10,6 @@ metadata:
 
 # Reddit Reply Writer
 
-Draft native, experience-based Reddit replies that sound like a domain expert, not a marketer.
-
 ## Usage
 
 Use when writing a reply to a Reddit thread, crafting authentic engagement, or preparing replies for community participation. Works for any subreddit.

@@ -10,8 +10,6 @@ metadata:
 
 # Ad Creative
 
-Take an ad concept (from ad-angles output or user input) and produce a ready-to-upload ad image. Renders the ad as a styled HTML file, then optionally screenshots it to PNG using the Playwright MCP server.
-
 ## Usage
 
 Use when producing ad images from brainstormed concepts, creating multiple ad variations for A/B testing, or iterating on ad designs (new headline, different screenshot, color change).

@@ -10,8 +10,6 @@ metadata:
 
 # Search Audit
 
-Audit a single URL across four dimensions: SEO fundamentals, content structure, AI/GEO readiness, and E-E-A-T authority signals. Produces a scored report (out of 38) with prioritized fixes.
-
 ## Usage
 
 Ask your AI tool to audit a URL for search and AI readiness. You can optionally request a focus area — `seo-only`, `geo-only`, `eeat-only`, or `content-only`.

@@ -10,12 +10,6 @@ metadata:
 
 # Social Post Writer
 
-Generate ready-to-publish social media posts from a topic, idea, or brief. Uses 9 proven content templates to produce posts that educate, entertain, challenge, and build trust — without sounding like marketing.
-
-Unlike the content-repurposer (which breaks down existing long-form content), this skill generates original posts from a topic. Give it a subject and it writes the posts.
-
-Built from the template framework in Justin Welsh's Content Operating System.
-
 ## Usage
 
 Use when you have a topic and need social posts (no long-form source content required), filling gaps in a content calendar, testing messaging on a new topic, or generating variations to A/B test different angles.
@@ -310,4 +304,4 @@ For each post, check:
 - Story posts require real (or realistic) personal experience. If the user doesn't provide anecdotes, ask for them.
 - Not every template works for every topic. If there's no contrarian angle, skip Contrarian Take and generate a second Observation or Listicle instead.
 - These templates are frameworks, not fill-in-the-blanks. The output should read like a human wrote it.
-- Templates from Justin Welsh's Content Operating System.
+
