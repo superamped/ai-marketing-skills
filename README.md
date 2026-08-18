@@ -1,14 +1,14 @@
 # AI Marketing Skills for AI Agents
 
 [![Agent Skills](https://img.shields.io/badge/Agent%20Skills-18-6f42c1)](https://agentskills.io)
-[![Validate](https://github.com/superamped/ai-marketing-agent-skills/actions/workflows/validate.yml/badge.svg)](https://github.com/superamped/ai-marketing-agent-skills/actions/workflows/validate.yml)
-[![GitHub release](https://img.shields.io/github/v/release/superamped/ai-marketing-agent-skills)](https://github.com/superamped/ai-marketing-agent-skills/releases)
-[![MIT License](https://img.shields.io/github/license/superamped/ai-marketing-agent-skills)](LICENSE)
+[![Validate](https://github.com/superamped/ai-marketing-skills/actions/workflows/validate.yml/badge.svg)](https://github.com/superamped/ai-marketing-skills/actions/workflows/validate.yml)
+[![GitHub release](https://img.shields.io/github/v/release/superamped/ai-marketing-skills)](https://github.com/superamped/ai-marketing-skills/releases)
+[![MIT License](https://img.shields.io/github/license/superamped/ai-marketing-skills)](LICENSE)
 
 18 open-source **AI marketing skills** for practical work with Claude Code, Codex, Cursor, OpenCode, and other compatible AI agents. Research markets, audit SEO, analyze campaigns, improve conversion, and create content from your terminal.
 
 ```bash
-npx skills add superamped/ai-marketing-agent-skills
+npx skills add superamped/ai-marketing-skills
 ```
 
 > These are skills, not autonomous agents. They give your existing AI agent focused instructions, workflows, quality checks, and output standards for specific marketing jobs.
@@ -86,7 +86,7 @@ Because the files are plain text, you can inspect, adapt, and version the exact 
 Use the open Agent Skills installer for supported agents:
 
 ```bash
-npx skills add superamped/ai-marketing-agent-skills
+npx skills add superamped/ai-marketing-skills
 ```
 
 The installer lets you select skills and supported hosts. Commit installed skills to your own repository when you want your team and agents to share the same version.
@@ -94,7 +94,7 @@ The installer lets you select skills and supported hosts. Commit installed skill
 ### Claude Code plugin
 
 ```bash
-/plugin marketplace add superamped/ai-marketing-agent-skills
+/plugin marketplace add superamped/ai-marketing-skills
 /plugin install ai-marketing-skills
 ```
 
@@ -105,7 +105,7 @@ The plugin identifier remains `ai-marketing-skills`.
 Clone the repository and copy the desired skill directories into the Agent Skills location used by your host:
 
 ```bash
-git clone https://github.com/superamped/ai-marketing-agent-skills.git
+git clone https://github.com/superamped/ai-marketing-skills.git
 ```
 
 | Host | Typical project location | Method |
@@ -141,11 +141,11 @@ python3 -m pip install -r requirements-dev.txt
 scripts/validate.sh
 ```
 
-For bugs and feature requests, use [GitHub Issues](https://github.com/superamped/ai-marketing-agent-skills/issues). See [SECURITY.md](SECURITY.md) for private vulnerability reporting.
+For bugs and feature requests, use [GitHub Issues](https://github.com/superamped/ai-marketing-skills/issues). See [SECURITY.md](SECURITY.md) for private vulnerability reporting.
 
 ## Community for B2B SaaS founders
 
-Building a B2B SaaS product and using these skills to find your first customers? Apply to join [Launch Party by Superamped](https://joinlaunchparty.com/?utm_source=github&utm_medium=referral&utm_campaign=ai-marketing-agent-skills), a community for early-stage B2B SaaS founders working through customer acquisition together.
+Building a B2B SaaS product and using these skills to find your first customers? Apply to join [Launch Party by Superamped](https://joinlaunchparty.com/?utm_source=github&utm_medium=referral&utm_campaign=ai-marketing-skills), a community for early-stage B2B SaaS founders working through customer acquisition together.
 
 Launch Party is an adjacent founder community, not the support channel for this repository. Use GitHub Issues for repository support.
 

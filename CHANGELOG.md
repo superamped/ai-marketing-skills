@@ -19,7 +19,7 @@ All notable changes to this project are documented here. The format follows [Kee
 ### Changed
 
 - Repositioned the project around the established Agent Skills category.
-- Renamed the GitHub repository from `ai-marketing-skills` to `ai-marketing-agent-skills` while preserving the `ai-marketing-skills` Claude plugin identifier.
+- Kept the established `ai-marketing-skills` repository and plugin name while adding clearer Agent Skills and AI-agent positioning.
 - Clarified that the packages are skills used by AI agents, not autonomous agents.
 - Updated the Keywords Everywhere MCP environment-variable syntax.
 - Replaced the obsolete Growth Engineering Community link with a qualified Launch Party by Superamped invitation for B2B SaaS founders.
@@ -32,6 +32,6 @@ All notable changes to this project are documented here. The format follows [Kee
 - Claude Code marketplace configuration.
 - Optional Keywords Everywhere and Playwright integrations.
 
-[Unreleased]: https://github.com/superamped/ai-marketing-agent-skills/compare/v1.1.0...HEAD
-[1.1.0]: https://github.com/superamped/ai-marketing-agent-skills/compare/v1.0.0...v1.1.0
-[1.0.0]: https://github.com/superamped/ai-marketing-agent-skills/releases/tag/v1.0.0
+[Unreleased]: https://github.com/superamped/ai-marketing-skills/compare/v1.1.0...HEAD
+[1.1.0]: https://github.com/superamped/ai-marketing-skills/compare/v1.0.0...v1.1.0
+[1.0.0]: https://github.com/superamped/ai-marketing-skills/releases/tag/v1.0.0
