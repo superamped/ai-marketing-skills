@@ -1,6 +1,7 @@
 ---
 name: content-repurposer
-description: "Take long-form content and produce a week of short-form social posts using Hub & Spoke method with 6 templates."
+description: "Use this skill to turn a blog post, newsletter, podcast, video transcript, or other long-form source into a week of short-form social content using the Hub & Spoke method. Trigger it when repurposing an existing source rather than writing from a topic alone."
+license: MIT
 compatibility: "No special requirements."
 metadata:
   author: superamped

@@ -1,6 +1,7 @@
 ---
 name: keyword-research
-description: "Expand a seed keyword into a clustered keyword universe using Keywords Everywhere MCP — grouped by search intent, scored, and prioritized."
+description: "Use this skill to expand seed topics with Keywords Everywhere, retrieve live metrics, cluster terms by search intent, and score priorities. Trigger it when building a keyword universe, planning SEO content, validating demand, or finding search gaps."
+license: MIT
 compatibility: "Requires Keywords Everywhere MCP."
 metadata:
   author: superamped

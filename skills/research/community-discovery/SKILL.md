@@ -1,6 +1,7 @@
 ---
 name: community-discovery
-description: "Discover 100+ online communities across Reddit, Slack, Discord, Facebook, LinkedIn, and forums, scored by Signal-to-Noise ratio."
+description: "Use this skill to discover and score online communities across Reddit, Slack, Discord, Facebook, LinkedIn, and independent forums. Trigger it when finding where a target audience gathers, planning organic participation, partnerships, or community-led go-to-market."
+license: MIT
 compatibility: "Requires internet access for web search and community directory lookups."
 metadata:
   author: superamped

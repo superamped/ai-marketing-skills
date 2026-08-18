@@ -1,6 +1,7 @@
 ---
 name: ad-campaign-analyzer
-description: "Grade running ads as Red (stop) / Yellow (hold) / Green (scale) with creative fatigue detection, LTV:CAC analysis, and scaling recommendations."
+description: "Use this skill to grade running ads as Red (stop), Yellow (hold), or Green (scale), detect creative fatigue, analyze LTV:CAC, and recommend scaling actions. Trigger it when reviewing campaign exports or deciding what to kill, keep, or scale."
+license: MIT
 compatibility: "No special requirements. Accepts campaign data as CSV, table, or pasted text."
 metadata:
   author: superamped

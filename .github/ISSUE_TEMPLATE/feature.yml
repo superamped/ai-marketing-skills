@@ -1,0 +1,39 @@
+name: Skill or improvement request
+about: Propose a focused marketing workflow or improvement
+title: "feat: "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: Propose a real marketing job and desired outcome, not a skill-count addition.
+  - type: textarea
+    id: job
+    attributes:
+      label: Marketing job
+      description: What is the user trying to accomplish, and in what situation?
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Desired output
+      description: What concrete artifact or decision should the skill produce?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence or examples
+      description: Link public examples or describe safe tests that would demonstrate usefulness.
+  - type: textarea
+    id: tools
+    attributes:
+      label: Tools or data required
+      description: Note paid APIs, browsing, MCP servers, or other dependencies.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: This request contains no credentials, private client data, or confidential material.
+          required: true

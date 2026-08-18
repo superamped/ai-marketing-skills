@@ -1,6 +1,7 @@
 ---
 name: social-post-writer
-description: "Generate social media posts from a topic using 9 templates (Story, Observation, Contrarian Take, Listicle, Past vs. Present, Hand-Raiser, Launch, Meme, Carousel) with platform adaptation."
+description: "Use this skill to write platform-adapted social posts from a topic using story, observation, contrarian, listicle, past-versus-present, hand-raiser, launch, meme, and carousel templates. Trigger it when drafting new social posts without a long-form source to repurpose."
+license: MIT
 compatibility: "No special requirements."
 metadata:
   author: superamped

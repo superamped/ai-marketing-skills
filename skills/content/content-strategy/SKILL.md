@@ -1,6 +1,7 @@
 ---
 name: content-strategy
-description: "Plan content strategy including pillars, topic clusters, editorial calendar, and keyword research by buyer stage."
+description: "Use this skill to create or refresh a content strategy with pillars, topic clusters, buyer-stage keyword mapping, priorities, and an editorial calendar. Trigger it when planning what a company should publish and why, before drafting individual pieces."
+license: MIT
 compatibility: "Requires internet access for competitor and forum research. Optional: keyword data from external tools."
 metadata:
   author: superamped

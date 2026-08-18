@@ -1,6 +1,7 @@
 ---
 name: influencer-discovery
-description: "Discover 100+ influencers across YouTube, X/Twitter, blogs, newsletters, podcasts, and Instagram — scored by Audience Overlap."
+description: "Use this skill to discover and score relevant influencers across YouTube, X, blogs, newsletters, podcasts, and Instagram. Trigger it when building a sponsorship, affiliate, co-marketing, outreach, PR, or audience-research list for a defined market."
+license: MIT
 compatibility: "Requires internet access for web search and profile lookups."
 metadata:
   author: superamped

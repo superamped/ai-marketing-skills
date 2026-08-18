@@ -1,6 +1,6 @@
-# AI Marketing Skills
+# AI Marketing Skills for AI Agents
 
-This repo contains standalone marketing skills in the `skills/` directory. Each skill is a self-contained markdown prompt with YAML frontmatter.
+This repository contains portable AI marketing skills in `skills/`. Each package follows the Agent Skills format with a `SKILL.md` file containing YAML frontmatter and procedural instructions for a focused marketing job.
 
 ## Available Skills
 
@@ -42,9 +42,14 @@ This repo contains standalone marketing skills in the `skills/` directory. Each 
 
 ## Conventions
 
-- Skills live in `skills/<category>/<skill-name>/SKILL.md`
-- Each skill defines its own process, output format, and rules
-- Do not improvise outside what the skill specifies — follow the SKILL.md
+- Skills live in `skills/<category>/<skill-name>/SKILL.md`.
+- The frontmatter `name` must match the kebab-case directory name.
+- Descriptions should identify both the capability and when to use it.
+- Each skill defines its own process, output format, evidence handling, and quality rules.
+- Never include client data, confidential material, credentials, or proprietary orchestration.
+- Do not make untested compatibility, performance, or outcome claims.
+- Keep `.claude-plugin/marketplace.json`, `README.md`, and `CHANGELOG.md` synchronized with user-visible changes.
+- Install `requirements-dev.txt` and run `scripts/validate.sh` before submitting changes; it uses the official `skills-ref` validator plus repository-specific checks.
 
 ## Integrations
 

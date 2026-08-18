@@ -1,6 +1,7 @@
 ---
 name: conversion-audit
-description: "53-point conversion audit covering customer focus, narrative arc, copy quality, design, CTAs, and proof. Scored report with prioritized fixes."
+description: "Use this skill to run a scored 53-point conversion audit covering customer focus, narrative, copy, design, calls to action, and proof. Trigger it when a landing, sales, product, or ad destination page needs diagnosis, pre-launch review, or prioritized conversion fixes."
+license: MIT
 compatibility: "Requires internet access to fetch URLs."
 metadata:
   author: superamped

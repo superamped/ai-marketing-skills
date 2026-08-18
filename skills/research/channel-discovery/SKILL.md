@@ -1,6 +1,7 @@
 ---
 name: channel-discovery
-description: "Map marketing channels for a target audience, score each on 5 criteria (audience fit, speed, cost, effort, learning value), and recommend the top 3 to prioritize."
+description: "Use this skill to identify and score acquisition channels by audience fit, speed, cost, effort, and learning value, then recommend the top three. Trigger it when choosing where to reach a defined audience, planning go-to-market, or replacing an underperforming channel."
+license: MIT
 compatibility: "Requires internet access for channel research and competitor presence checks."
 metadata:
   author: superamped

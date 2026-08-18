@@ -1,6 +1,7 @@
 ---
 name: search-page-audit
-description: "Run a 38-point SEO + AI optimization audit on any URL. Evaluates SEO fundamentals, content structure, AI/GEO readiness, and E-E-A-T authority signals. Returns a scored report with prioritized fixes. Use when asked to audit a page, check search visibility, or evaluate a URL for SEO and AI readiness."
+description: "Use this skill to run a scored 38-point audit of a URL covering SEO fundamentals, content structure, AI-search/GEO readiness, and E-E-A-T signals. Trigger it when auditing a page, diagnosing search visibility, reviewing content before publication, or prioritizing SEO and AI-search fixes."
+license: MIT
 compatibility: "Requires internet access to fetch URLs, robots.txt, sitemap.xml, and llms.txt"
 metadata:
   author: superamped

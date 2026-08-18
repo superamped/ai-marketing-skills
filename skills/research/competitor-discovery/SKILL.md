@@ -1,6 +1,7 @@
 ---
 name: competitor-discovery
-description: "Search the web for competitors based on product category, produce a ranked list of direct, adjacent, and tangential competitors."
+description: "Use this skill to find, verify, classify, and rank direct, adjacent, and tangential competitors from public web evidence. Trigger it when entering a market, building a competitor set, validating perceived alternatives, or refreshing research after a pivot."
+license: MIT
 compatibility: "Requires internet access for web search and competitor website fetching."
 metadata:
   author: superamped

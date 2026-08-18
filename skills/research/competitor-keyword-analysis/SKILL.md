@@ -1,6 +1,7 @@
 ---
 name: competitor-keyword-analysis
-description: "Map a competitor's organic search presence using Keywords Everywhere MCP — top keywords, traffic metrics, and content theme clusters."
+description: "Use this skill to map a competitor's organic search footprint with Keywords Everywhere ranking keywords, traffic estimates, and content-theme clusters. Trigger it when comparing SEO visibility, identifying competitor keyword strengths, or preparing deeper content-gap analysis."
+license: MIT
 compatibility: "Requires Keywords Everywhere MCP. Returns empty data gracefully if not connected."
 metadata:
   author: superamped

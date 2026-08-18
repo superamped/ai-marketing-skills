@@ -1,6 +1,7 @@
 ---
 name: reply-writer
-description: "Draft native Reddit replies in 3 rotating formats with subreddit tone calibration."
+description: "Use this skill to draft useful, native Reddit replies in three rotating formats with subreddit tone calibration. Trigger it when responding to a specific Reddit thread or preparing authentic community participation, not when writing promotional ads."
+license: MIT
 compatibility: "No special requirements."
 metadata:
   author: superamped

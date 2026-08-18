@@ -1,6 +1,7 @@
 ---
 name: competitor-site-analysis
-description: "Visit a competitor's website and extract structured data across 5 dimensions: overview, positioning, pricing, social proof, and hiring signals."
+description: "Use this skill to inspect a competitor website and extract structured evidence about the company, positioning, pricing, social proof, and hiring signals. Trigger it when creating a current competitor profile from public pages before comparative analysis."
+license: MIT
 compatibility: "Requires internet access. Optional: Playwright MCP for JS-rendered pages."
 metadata:
   author: superamped

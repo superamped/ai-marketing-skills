@@ -4,63 +4,40 @@ Keywords Everywhere is an MCP server that gives Claude native tool access to key
 
 ## Setup
 
-### Claude Code (recommended)
+### Claude Code and compatible MCP hosts
 
-Streamable HTTP transport — one command:
-
-```bash
-claude mcp add --transport http keywords-everywhere \
-  https://mcp.keywordseverywhere.com/mcp \
-  -H "Authorization: Bearer <your-api-key>"
-```
-
-Or add to project scope (shared via `.mcp.json`):
-
-```bash
-claude mcp add -s project --transport http keywords-everywhere \
-  https://mcp.keywordseverywhere.com/mcp \
-  -H "Authorization: Bearer <your-api-key>"
-```
-
-Verify it's connected:
-
-```bash
-claude mcp list
-```
-
-Should show `keywords-everywhere` with status `✓ healthy`.
-
-### Claude Desktop
-
-Add to `~/Library/Application Support/Claude/claude_desktop_config.json`:
+The repository includes a secret-free [`.mcp.json`](../.mcp.json) template using Streamable HTTP:
 
 ```json
 {
   "mcpServers": {
     "keywords-everywhere": {
-      "command": "npx",
-      "args": [
-        "mcp-remote",
-        "https://mcp.keywordseverywhere.com/mcp",
-        "--header",
-        "Authorization: ${KEYWORDS_EVERYWHERE_AUTH_HEADER}"
-      ],
-      "env": {
-        "KEYWORDS_EVERYWHERE_AUTH_HEADER": "Bearer <your-api-key>"
+      "type": "http",
+      "url": "https://mcp.keywordseverywhere.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${KEYWORDS_EVERYWHERE_API_KEY}"
       }
     }
   }
 }
 ```
 
-Claude Desktop doesn't support streamable HTTP natively, so we use `mcp-remote` as a stdio wrapper.
+Supply `KEYWORDS_EVERYWHERE_API_KEY` to the host process from a secure secret store, then restart the host and verify the server is healthy. Do not replace the placeholder with a real key or commit an `.env` file.
+
+For Claude Code, verify configured MCP servers with:
+
+```bash
+claude mcp list
+```
+
+MCP configuration and environment-variable interpolation vary by host and version. If your host does not read `.mcp.json`, follow its current documentation and use the same server URL and authorization header without saving the key in this repository.
 
 ## Authentication
 
-Every call uses a bearer token:
+Every call uses a bearer token supplied through the environment:
 
 ```
-Authorization: Bearer <your-api-key>
+Authorization: Bearer ${KEYWORDS_EVERYWHERE_API_KEY}
 ```
 
 Get your API key from the [Keywords Everywhere dashboard](https://keywordseverywhere.com/).

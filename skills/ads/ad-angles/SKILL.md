@@ -1,6 +1,7 @@
 ---
 name: ad-angles
-description: "Brainstorm ad concepts by combining messaging angles (Problem, Solution, Comparison, Proof, Curiosity), formats, and visual styles using a market awareness framework."
+description: "Use this skill to brainstorm ad concepts across problem, solution, comparison, proof, and curiosity angles, formats, and visual styles. Trigger it when planning a campaign, refreshing stale creative, testing messaging, or preparing creative briefs."
+license: MIT
 compatibility: "No special requirements."
 metadata:
   author: superamped

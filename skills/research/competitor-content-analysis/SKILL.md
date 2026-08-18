@@ -1,6 +1,7 @@
 ---
 name: competitor-content-analysis
-description: "Analyze a competitor's content engine — what they publish, what earns traffic, what SEO plays they run, and where the content gaps are."
+description: "Use this skill to analyze what a competitor publishes, which content earns estimated traffic, the SEO plays they use, and where gaps exist. Trigger it before creating or refreshing a content strategy or when investigating a competitor's organic content performance."
+license: MIT
 compatibility: "Requires internet access. Optional: Keywords Everywhere MCP for traffic metrics, Playwright MCP for JS-rendered pages."
 metadata:
   author: superamped

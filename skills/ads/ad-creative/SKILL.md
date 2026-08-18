@@ -1,6 +1,7 @@
 ---
 name: ad-creative
-description: "Render ad concepts as HTML with 5 template styles (cookie-cutter, ugly, meme, branded, native), optionally screenshot via Playwright MCP."
+description: "Use this skill to turn ad concepts into HTML creative in cookie-cutter, ugly, meme, branded, or native styles, with optional Playwright screenshots. Trigger it when producing, varying, or iterating visual ad assets for testing."
+license: MIT
 compatibility: "Optional: Playwright MCP for screenshot capture. Degrades to HTML-only without it."
 metadata:
   author: superamped

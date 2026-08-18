@@ -1,6 +1,7 @@
 ---
 name: competitor-landscape
-description: "Cross-competitor comparison — feature matrix, pricing comparison, 2x2 positioning map, aggregate SWOT, moat landscape, and strategic recommendations."
+description: "Use this skill to synthesize research on two or more competitors into feature and pricing comparisons, positioning, SWOT, moat analysis, and strategic recommendations. Trigger it after individual competitor profiles exist or when preparing a market landscape."
+license: MIT
 compatibility: "No special requirements. Best results when provided with detailed competitor data from prior analysis."
 metadata:
   author: superamped
