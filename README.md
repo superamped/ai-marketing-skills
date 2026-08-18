@@ -1,4 +1,4 @@
-# AI Marketing Skills for AI Agents
+# Marketing Skills for AI Agents
 
 [![Agent Skills](https://img.shields.io/badge/Agent%20Skills-18-6f42c1)](https://agentskills.io)
 [![Validate](https://github.com/superamped/ai-marketing-skills/actions/workflows/validate.yml/badge.svg)](https://github.com/superamped/ai-marketing-skills/actions/workflows/validate.yml)
