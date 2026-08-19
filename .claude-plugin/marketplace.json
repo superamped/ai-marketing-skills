@@ -5,14 +5,14 @@
     "url": "https://superamped.com"
   },
   "metadata": {
-    "description": "18 AI marketing skills for Claude Code and other AI agents — research, SEO, paid campaigns, conversion, and content.",
+    "description": "19 AI marketing skills for Claude Code and other AI agents — research, X source evidence, SEO, paid campaigns, conversion, and content.",
     "version": "1.1.0",
     "repository": "https://github.com/superamped/ai-marketing-skills"
   },
   "plugins": [
     {
       "name": "ai-marketing-skills",
-      "description": "18 AI marketing skills for technical marketers and founders using Claude Code and other AI agents: competitor research, keyword analysis, SEO audits, ad creative, content strategy, conversion optimization, and more",
+      "description": "19 AI marketing skills for technical marketers and founders using Claude Code and other AI agents: competitor research, X source research, keyword analysis, SEO audits, ad creative, content strategy, conversion optimization, and more",
       "source": "./",
       "strict": false,
       "skills": [
@@ -33,6 +33,7 @@
         "./skills/research/competitor-site-analysis",
         "./skills/research/influencer-discovery",
         "./skills/research/keyword-research",
+        "./skills/research/x-source-research",
         "./skills/search/search-page-audit"
       ]
     }

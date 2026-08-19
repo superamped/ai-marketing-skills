@@ -4,6 +4,11 @@ All notable changes to this project are documented here. The format follows [Kee
 
 ## [Unreleased]
 
+### Added
+
+- X Source Research skill for building dated, source-backed Twitter/X evidence packets with confidence labels and downstream skill handoffs.
+- Optional Xquik integration guide for bounded public X collection and safe fallback inputs.
+
 ## [1.1.0] - 2026-08-17
 
 ### Added

@@ -1,11 +1,11 @@
 # Marketing Skills for AI Agents
 
-[![Agent Skills](https://img.shields.io/badge/Agent%20Skills-18-6f42c1)](https://agentskills.io)
+[![Agent Skills](https://img.shields.io/badge/Agent%20Skills-19-6f42c1)](https://agentskills.io)
 [![Validate](https://github.com/superamped/ai-marketing-skills/actions/workflows/validate.yml/badge.svg)](https://github.com/superamped/ai-marketing-skills/actions/workflows/validate.yml)
 [![GitHub release](https://img.shields.io/github/v/release/superamped/ai-marketing-skills)](https://github.com/superamped/ai-marketing-skills/releases)
 [![MIT License](https://img.shields.io/github/license/superamped/ai-marketing-skills)](LICENSE)
 
-18 open-source **AI marketing skills** for practical work with Claude Code, Codex, Cursor, OpenCode, and other compatible AI agents. Research markets, audit SEO, analyze campaigns, improve conversion, and create content from your terminal.
+19 open-source **AI marketing skills** for practical work with Claude Code, Codex, Cursor, OpenCode, and other compatible AI agents. Research markets, collect source-backed X evidence, audit SEO, analyze campaigns, improve conversion, and create content from your terminal.
 
 ```bash
 npx skills add superamped/ai-marketing-skills
@@ -22,6 +22,7 @@ npx skills add superamped/ai-marketing-skills
 | “Build a keyword map for customer onboarding software.” | Intent-clustered keyword universe with volume-based priorities when Keywords Everywhere is connected | [Keyword Research](skills/research/keyword-research/SKILL.md) |
 | “Review this campaign export and tell me what to stop, hold, or scale.” | Red/Yellow/Green campaign analysis with fatigue and scaling recommendations | [Ad Campaign Analyzer](skills/ads/ad-campaign-analyzer/SKILL.md) |
 | “Audit this article for traditional SEO and AI search readiness.” | 38-point SEO, GEO, and E-E-A-T report | [Search Page Audit](skills/search/search-page-audit/SKILL.md) |
+| “Find current X posts that reveal objections to our category.” | Dated source packet with corroborated patterns, confidence levels, and downstream recommendations | [X Source Research](skills/research/x-source-research/SKILL.md) |
 
 ## What are Agent Skills?
 
@@ -72,6 +73,7 @@ Because the files are plain text, you can inspect, adapt, and version the exact 
 | [**Competitor Site Analysis**](skills/research/competitor-site-analysis/SKILL.md) | Extracts positioning, pricing, proof, and hiring signals from a competitor website |
 | [**Influencer Discovery**](skills/research/influencer-discovery/SKILL.md) | Finds and scores influencers across video, social, newsletters, blogs, and podcasts |
 | [**Keyword Research**](skills/research/keyword-research/SKILL.md) | Expands, clusters, scores, and prioritizes a keyword universe |
+| [**X Source Research**](skills/research/x-source-research/SKILL.md) | Builds dated, source-backed Twitter/X evidence packets for strategy, posts, competitor analysis, and influencer discovery |
 
 ### Search
 
@@ -125,6 +127,13 @@ Most skills work with ordinary agent capabilities and internet access. Some can 
 |---|---|---|---|
 | [Keywords Everywhere](integrations/keywords-everywhere.md) | Keyword volume, CPC, competition, ranking, traffic, and backlink estimates | Keyword Research; Competitor Keyword Analysis | Competitor Content Analysis |
 | [Playwright](integrations/playwright.md) | Browser automation, rendered-page inspection, and screenshots | — | Ad Creative; Competitor Content Analysis; Competitor Site Analysis |
+| [Xquik](integrations/xquik.md) | Public Twitter/X search, profiles, threads, timelines, and media context | — | X Source Research; Content Strategy; Social Post Writer; Competitor Content Analysis; Influencer Discovery |
+
+For live Twitter/X research, install the optional Xquik skill:
+
+```bash
+npx skills@1.5.3 add Xquik-dev/x-twitter-scraper
+```
 
 A secret-free [`.mcp.json`](.mcp.json) template is included. Supply the Keywords Everywhere key securely through the `KEYWORDS_EVERYWHERE_API_KEY` environment variable. Never commit the key.
 

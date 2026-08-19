@@ -30,6 +30,7 @@ This repository contains portable AI marketing skills in `skills/`. Each package
 - `skills/research/competitor-site-analysis/SKILL.md` — Extract structured data from a competitor's website across 5 dimensions
 - `skills/research/influencer-discovery/SKILL.md` — Discover 100+ influencers across YouTube, X/Twitter, blogs, newsletters, and podcasts
 - `skills/research/keyword-research/SKILL.md` — Expand a seed keyword into clustered keyword universe via Keywords Everywhere MCP
+- `skills/research/x-source-research/SKILL.md` — Collect source-backed Twitter/X evidence for content, competitor, influencer, and campaign research
 
 ### Search
 - `skills/search/search-page-audit/SKILL.md` — 38-point SEO + AI optimization audit for any URL
@@ -56,3 +57,4 @@ This repository contains portable AI marketing skills in `skills/`. Each package
 Some skills use MCP servers. See `integrations/` for setup guides.
 - **Keywords Everywhere** — keyword data, traffic metrics, backlinks
 - **Playwright** — browser automation, screenshots
+- **Xquik** — optional public Twitter/X source collection for research workflows; see `integrations/xquik.md`
